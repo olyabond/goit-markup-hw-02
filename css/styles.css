@@ -1,0 +1,199 @@
+:root {
+    --primary-font-family:'Roboto',
+        sans-serif;
+    --secondary-font-family:'Raleway',
+        sans-serif;
+    --primary-text-color-theme-light: #757575;
+    --secondary-text-color-theme-light: #212121;
+    --primary-text-color-theme-dark: #FFFFFF99;
+    --secondary-text-color-theme-dark: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-backround-color: #2F303A;
+}
+
+body {
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--primary-background-color);
+}
+
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.colorchange {
+    color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.nav-list-link {
+    color: var(--secondary-text-color-theme-light);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .link.current {
+    color: var(--accent-color);
+}
+
+.contact-mail,
+.contact-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-theme-light);
+    }
+
+.contact-mail:hover,
+.contact-number:hover {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--secondary-backround-color);
+}
+.main-tittle {
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color-theme-dark);
+}
+
+.modal-btn {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subtittle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color-theme-light);
+}
+
+.feature-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.tittle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+}
+
+.team-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+}
+
+.footer {
+    background-color: var(--secondary-backround-color);
+}
+
+.colorchange2 {
+    color: #FFFFFF;
+}
+
+.adress-list .adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-dark);
+}
+
+.adress-list .contact-mail,
+.adress-list .contact-number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-dark);
+
+}
+/*Портфолиио*/
+
+.filter-btn {
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+    color: var(--secondary-text-color-theme-dark);
+    background-color: var(--accent-color);
+}
+
+.project-list .subtittle {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color-theme-light);
+}
+
+.project-list .text {
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+}
+
+
+
+
+
