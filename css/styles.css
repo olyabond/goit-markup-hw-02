@@ -8,12 +8,16 @@
     --primary-text-color-theme-dark: #FFFFFF99;
     --secondary-text-color-theme-dark: #FFFFFF;
     --accent-color: #2196F3;
+    --logo-text-color-top: #000000;
     --primary-background-color: #FFFFFF;
     --secondary-backround-color: #2F303A;
+
 }
 
 body {
     font-family: var(--primary-font-family);
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
     background-color: var(--primary-background-color);
 }
@@ -23,12 +27,11 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
 .colorchange {
-    color: #000000;
+    color:var(--logo-text-color-top);
 }
 
 .list {
@@ -58,7 +61,6 @@ body {
 .contact-mail,
 .contact-number {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-theme-light);
@@ -82,6 +84,15 @@ body {
 }
 
 .modal-btn {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-background-color);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -92,13 +103,11 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-text-color-theme-light);
 }
 
 .feature-list .text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -109,12 +118,10 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-light);
 }
 
 .team-list .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -135,10 +142,11 @@ body {
 }
 
 .colorchange2 {
-    color: #FFFFFF;
+    color: var(--primary-background-color);
 }
 
 .adress-list .adress {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -148,10 +156,8 @@ body {
 
 .adress-list .contact-mail,
 .adress-list .contact-number {
-    font-weight: 400;
-    font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-dark);
 
 }
@@ -176,7 +182,6 @@ body {
 }
 
 .project-list .subtittle {
-    font-family: var(--primary-font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -185,11 +190,9 @@ body {
 }
 
 .project-list .text {
-    font-family: var(--primary-font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
 }
 
